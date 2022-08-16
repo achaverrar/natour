@@ -4,7 +4,7 @@
   "description": "Course project from Advanced CSS course by Jonas Schmedtmann",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+    "compile:sass": "sass --watch sass/main.scss:css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/achaverrar/natour#readme",
   "devDependencies": {
-    "node-sass": "^7.0.1"
+    "sass": "^1.54.4"
   }
 }
